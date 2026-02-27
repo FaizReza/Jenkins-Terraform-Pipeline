@@ -1,7 +1,3 @@
-provider "aws" {
-  region = "eu-north-1"
-}
-
 data "aws_ami" "myami" {
 most_recent      = true
 owners           = ["amazon"]
